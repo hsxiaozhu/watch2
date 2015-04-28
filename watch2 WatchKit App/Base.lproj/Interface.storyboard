@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watch2_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="center" image="anime0" id="NCD-5y-v3n"/>
+                        <button width="1" alignment="left" title="开始" id="ueZ-rK-3Pn">
+                            <connections>
+                                <action selector="startGame" destination="AgC-eL-Hgc" id="fah-ao-WHn"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="animeImage" destination="NCD-5y-v3n" id="Mlc-7B-9dV"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
